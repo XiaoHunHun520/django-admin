@@ -1,1 +1,151 @@
+# 操作系统
+.DS_Store
+
+# 字节编译 / 优化 / DLL 文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# 发行 / 打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  通常这些文件是由一个 Python 脚本从模板生成的
+#  在 PyInstaller 构建可执行文件之前，以便将日期/其他信息注入其中。
+*.manifest
+*.spec
+
+# 安装程序日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 单元测试 / 覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.* 
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# 翻译
+*.mo
+*.pot
+
+# Django 相关：
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask 相关：
+instance/
+.webassets-cache
+
+# Scrapy 相关：
+.scrapy
+
+# Sphinx 文档
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   根据 pypa/pipenv#598，建议将 Pipfile.lock 包含在版本控制中。
+#   但是，在协作的情况下，如果存在特定于平台的依赖项或不支持跨平台的依赖项，pipenv 可能会安装无法工作的依赖项，或者不会安装所有需要的依赖项。
+#Pipfile.lock
+
+# PEP 582; 例如 github.com/David-OConnor/pyflow 使用
+__pypackages__/
+
+# Celery 相关
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath 解析文件
+*.sage.py
+
+# 环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder 项目设置
+.spyderproject
+.spyproject
+
+# Rope 项目设置
+.ropeproject
+
+# mkdocs 文档
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre 类型检查器
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+.vim/
+
+# 自定义
+assets
+logs
+
+*.pyc
+# poetry 锁
+poetry.lock
+# 数据库
+lincmsdev.db
+lincmsprod.db
+lincms.db
+
+# .env 中记录了私密配置
+# *.env
 venv/

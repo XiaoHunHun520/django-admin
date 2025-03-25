@@ -1,2 +1,2 @@
-# Project name changed from django-cms to django_cms due to invalid identifier error
+# 项目名称从 django-cms 更改为 django_cms 以避免无效标识符错误
 Django==4.1.7
