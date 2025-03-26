@@ -73,13 +73,27 @@ WSGI_APPLICATION = 'djangocms.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+#mysql
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangodev',
+        'USER': 'djangodev',
+        'PASSWORD': 'ErS2PkjjZm47rbir',
+        'HOST': '175.178.223.108',  # 或者你的数据库服务器地址
+        'PORT': '3306',
+        'OPTIONS': {
+            'autocommit': True,
+        },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
